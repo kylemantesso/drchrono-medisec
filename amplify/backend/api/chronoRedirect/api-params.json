@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/chrono/redirect",
+            "lambdaFunction": "chronoRedirectFunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/chrono/redirect"
+        }
+    ],
+    "resourceName": "chronoRedirect",
+    "apiName": "chronoRedirect",
+    "functionArns": [
+        {
+            "lambdaFunction": "chronoRedirectFunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-drchrono-dev-213959-authRole",
+        "unAuthRoleName": "amplify-drchrono-dev-213959-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "chronoRedirectFunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/covid",
+            "lambdaFunction": "covidCheckFunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/covid"
+        }
+    ],
+    "resourceName": "covidCheck",
+    "apiName": "covidCheck",
+    "functionArns": [
+        {
+            "lambdaFunction": "covidCheckFunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-drchrono-dev-213959-authRole",
+        "unAuthRoleName": "amplify-drchrono-dev-213959-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "covidCheckFunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

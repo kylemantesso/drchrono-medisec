@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-drchrono-dev-213959-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088711593565:role/amplify-drchrono-dev-213959-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088711593565:role/amplify-drchrono-dev-213959-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-drchrono-dev-213959-deployment",
+      "UnauthRoleName": "amplify-drchrono-dev-213959-unauthRole",
+      "StackName": "amplify-drchrono-dev-213959",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:088711593565:stack/amplify-drchrono-dev-213959/5bf950c0-53f9-11eb-9bdc-02dd7379711a",
+      "AmplifyAppId": "d2pxkcdvlaw5ym"
+    }
+  }
+}
